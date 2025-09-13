@@ -1,0 +1,444 @@
+2025-09-13 19:19:25 [INFO] billdr: Health check passed: basic
+2025-09-13 19:19:29 [INFO] billdr: Health check passed: database
+2025-09-13 19:19:29 [INFO] billdr: Database connection established successfully
+2025-09-13 19:20:39 [INFO] billdr: Test log entry: Database logging is working!
+2025-09-13 19:21:05 [INFO] billdr: Invoice number generated: INV-202509-0004 for invoice 09fa1c01-40e2-44fb-a82b-02208bf7804d
+2025-09-13 19:21:05 [INFO] billdr: Invoice deleted successfully: 09fa1c01-40e2-44fb-a82b-02208bf7804d
+2025-09-13 19:21:05 [INFO] billdr: User deleted successfully: Customer - 2cb862c1-57b2-4562-8525-38236dc24d0a
+2025-09-13 19:21:05 [INFO] billdr: User deleted successfully: BusinessOwner - 8270c93a-1d86-41fc-835c-644b92af9fb5
+2025-09-13 19:21:52 [INFO] billdr: System test: Direct logging test started
+2025-09-13 19:21:52 [INFO] billdr: Invoice status changed: 20e2948f-4041-48e9-be59-6300b946c545 from sent to paid
+2025-09-13 19:21:52 [INFO] billdr: Invoice deleted successfully: 20e2948f-4041-48e9-be59-6300b946c545
+2025-09-13 19:21:52 [INFO] billdr: User deleted successfully: Customer - 15559138-3cb4-4b3c-9981-06a833645f17
+2025-09-13 19:21:52 [INFO] billdr: User deleted successfully: BusinessOwner - 68fd70ea-737d-4ca1-b1c4-75614a365e1f
+2025-09-13 19:25:49 [INFO] billdr: Invoice status changed: 90bee4e8-28cb-436b-b849-104bed4c7e3f from sent to refunded
+2025-09-13 19:25:49 [INFO] billdr: Invoice status changed: 297b9510-c044-4e00-a529-fb3356746997 from sent to refunded
+2025-09-13 19:25:49 [INFO] billdr: Invoice status changed: c2a198dc-571f-4279-a62d-1771341fd7c1 from sent to paid
+2025-09-13 19:25:49 [INFO] billdr: Invoice status changed: 437ef7dc-dc97-428a-9cb0-9bb8275b02aa from sent to partial
+2025-09-13 19:25:49 [INFO] billdr: Invoice status changed: 879b4203-785e-4cee-8ab9-49c1d635fffb from sent to refunded
+2025-09-13 19:25:49 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:25:49 [INFO] billdr: API request received: GET /api/business-owners/c89122e2-dc0d-4580-9338-1828e68e7d9b/ from 127.0.0.1
+2025-09-13 19:25:49 [INFO] billdr: User retrieved successfully: BusinessOwner - c89122e2-dc0d-4580-9338-1828e68e7d9b
+2025-09-13 19:25:49 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:25:49 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:25:49 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:25:49 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:25:49 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:25:49 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:25:49 [INFO] billdr: API request received: GET /api/customers/643bb89c-0a2d-4c96-89e9-462ebce07d83/ from 127.0.0.1
+2025-09-13 19:25:49 [INFO] billdr: User retrieved successfully: Customer - 643bb89c-0a2d-4c96-89e9-462ebce07d83
+2025-09-13 19:25:49 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:25:49 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:25:49 [INFO] billdr: Health check passed: basic
+2025-09-13 19:25:49 [INFO] billdr: Health check passed: database
+2025-09-13 19:25:49 [INFO] billdr: Database connection established successfully
+2025-09-13 19:25:49 [INFO] billdr: Invoice deleted successfully: 07836681-1861-4483-a73e-f8fd1158551f
+2025-09-13 19:26:20 [INFO] billdr: Invoice status changed: 498e7714-c6e8-48f9-9c3d-150460aa994a from sent to refunded
+2025-09-13 19:26:20 [INFO] billdr: Invoice status changed: 21296a29-a13d-4be1-a832-86a6cc352042 from sent to refunded
+2025-09-13 19:26:20 [INFO] billdr: Invoice status changed: 51b55df1-400a-4299-b346-758d81a2ae6c from sent to paid
+2025-09-13 19:26:20 [INFO] billdr: Invoice status changed: 75c360c1-4237-47a1-8c60-8123cf5e8ae8 from sent to partial
+2025-09-13 19:26:20 [INFO] billdr: Invoice status changed: ce2ce191-b418-4e5f-b5e5-408afe4c1f88 from sent to refunded
+2025-09-13 19:26:20 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:26:20 [INFO] billdr: API request received: GET /api/business-owners/1ffdb849-20c6-4bea-8d9e-cab0cee62642/ from 127.0.0.1
+2025-09-13 19:26:20 [INFO] billdr: User retrieved successfully: BusinessOwner - 1ffdb849-20c6-4bea-8d9e-cab0cee62642
+2025-09-13 19:26:20 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:26:20 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:26:20 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:26:20 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:26:20 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:26:20 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:26:20 [INFO] billdr: API request received: GET /api/customers/ef8b4ea0-b8af-477a-ad4d-01950bf93512/ from 127.0.0.1
+2025-09-13 19:26:20 [INFO] billdr: User retrieved successfully: Customer - ef8b4ea0-b8af-477a-ad4d-01950bf93512
+2025-09-13 19:26:20 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:26:20 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:26:20 [INFO] billdr: Health check passed: basic
+2025-09-13 19:26:20 [INFO] billdr: Health check passed: database
+2025-09-13 19:26:20 [INFO] billdr: Database connection established successfully
+2025-09-13 19:26:20 [INFO] billdr: Invoice deleted successfully: 1839276f-3f7b-43a8-8c3a-ae0a570c9fac
+2025-09-13 19:26:24 [INFO] billdr: Invoice status changed: 687f2f72-f518-4446-90a8-4be80303d91e from sent to refunded
+2025-09-13 19:26:24 [INFO] billdr: Invoice status changed: 3b872658-c36d-494b-8c7b-22d324a0d9ba from sent to refunded
+2025-09-13 19:26:24 [INFO] billdr: Invoice status changed: fbcc1c3d-2097-423b-8ec9-9de0b54e8881 from sent to paid
+2025-09-13 19:26:24 [INFO] billdr: Invoice status changed: 641bfba0-de66-4270-8fff-6959dadb48cd from sent to partial
+2025-09-13 19:26:24 [INFO] billdr: Invoice status changed: 3749b727-f1bc-4cf1-9b5d-44f190cc651d from sent to refunded
+2025-09-13 19:26:24 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:26:24 [INFO] billdr: API request received: GET /api/business-owners/ad4bfe10-62ca-484a-9b40-4a80461bd517/ from 127.0.0.1
+2025-09-13 19:26:24 [INFO] billdr: User retrieved successfully: BusinessOwner - ad4bfe10-62ca-484a-9b40-4a80461bd517
+2025-09-13 19:26:24 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:26:24 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:26:24 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:26:24 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:26:24 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:26:24 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:26:24 [INFO] billdr: API request received: GET /api/customers/d6ba2727-4405-4699-a211-a01c549b90fa/ from 127.0.0.1
+2025-09-13 19:26:24 [INFO] billdr: User retrieved successfully: Customer - d6ba2727-4405-4699-a211-a01c549b90fa
+2025-09-13 19:26:24 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:26:24 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:26:24 [INFO] billdr: Health check passed: basic
+2025-09-13 19:26:24 [INFO] billdr: Health check passed: database
+2025-09-13 19:26:24 [INFO] billdr: Database connection established successfully
+2025-09-13 19:26:24 [INFO] billdr: Invoice deleted successfully: 18a62f20-c7f5-4875-8eff-9660b44be502
+2025-09-13 19:27:49 [INFO] billdr: Health check passed: basic
+2025-09-13 19:30:12 [INFO] billdr: Invoice status changed: 0beb1814-00ee-4af2-ae1b-c4e0a7d4a741 from sent to refunded
+2025-09-13 19:30:12 [INFO] billdr: Invoice status changed: a2feca24-eabe-411e-8140-0708fbae2bf0 from sent to refunded
+2025-09-13 19:30:12 [INFO] billdr: Invoice status changed: c0e4149b-944f-4eab-a0b2-dbf6b730e6dc from sent to paid
+2025-09-13 19:30:12 [INFO] billdr: Invoice status changed: fecbc9e5-d697-4385-b8de-8509f715cf8e from sent to partial
+2025-09-13 19:30:12 [INFO] billdr: Invoice status changed: e6101bc4-9358-4cb8-8d46-0ab116c835f9 from sent to refunded
+2025-09-13 19:30:12 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:30:12 [INFO] billdr: API request received: GET /api/business-owners/a33108f0-f5f4-4568-aaf5-e1f050a9c513/ from 127.0.0.1
+2025-09-13 19:30:12 [INFO] billdr: User retrieved successfully: BusinessOwner - a33108f0-f5f4-4568-aaf5-e1f050a9c513
+2025-09-13 19:30:12 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:30:12 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:30:12 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:30:12 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:30:12 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:30:12 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:30:12 [INFO] billdr: API request received: GET /api/customers/740ebb8d-0676-4770-8a29-5a187b7fe945/ from 127.0.0.1
+2025-09-13 19:30:12 [INFO] billdr: User retrieved successfully: Customer - 740ebb8d-0676-4770-8a29-5a187b7fe945
+2025-09-13 19:30:12 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:30:12 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:30:12 [INFO] billdr: Health check passed: basic
+2025-09-13 19:30:12 [INFO] billdr: Health check passed: database
+2025-09-13 19:30:12 [INFO] billdr: Database connection established successfully
+2025-09-13 19:30:12 [INFO] billdr: Invoice deleted successfully: 14f506e8-2dad-4b65-96c7-dd5eb6b890c0
+2025-09-13 19:31:32 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from sent to paid
+2025-09-13 19:32:06 [INFO] billdr: Invoice status changed: 1aae8baa-d7fa-4597-bad9-29451b405ade from sent to refunded
+2025-09-13 19:32:06 [INFO] billdr: Invoice status changed: a063fe23-a321-41a8-aa6d-6bfc699a9ce7 from sent to refunded
+2025-09-13 19:32:06 [INFO] billdr: Invoice status changed: c7f40d39-5894-4c84-bb6d-f20ddc416bc9 from sent to paid
+2025-09-13 19:32:06 [INFO] billdr: Invoice status changed: f86ab9c9-15d0-4c30-a10b-b8159536fa50 from sent to partial
+2025-09-13 19:32:06 [INFO] billdr: Invoice status changed: 74e5286f-b676-4659-9df3-78051df35746 from sent to refunded
+2025-09-13 19:32:06 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:32:06 [INFO] billdr: API request received: GET /api/business-owners/d8bdc7ec-6a43-4804-b29b-4c526351643b/ from 127.0.0.1
+2025-09-13 19:32:06 [INFO] billdr: User retrieved successfully: BusinessOwner - d8bdc7ec-6a43-4804-b29b-4c526351643b
+2025-09-13 19:32:06 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:32:06 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:32:06 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:32:06 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:32:06 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:32:06 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:32:06 [INFO] billdr: API request received: GET /api/customers/6a27c7fa-0bf9-4fe2-95b0-45dac69e19b5/ from 127.0.0.1
+2025-09-13 19:32:06 [INFO] billdr: User retrieved successfully: Customer - 6a27c7fa-0bf9-4fe2-95b0-45dac69e19b5
+2025-09-13 19:32:06 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:32:06 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:32:06 [INFO] billdr: Health check passed: basic
+2025-09-13 19:32:06 [INFO] billdr: Health check passed: database
+2025-09-13 19:32:06 [INFO] billdr: Database connection established successfully
+2025-09-13 19:32:06 [INFO] billdr: Invoice deleted successfully: 798035ed-0dc1-4dd5-bae9-be142d66d658
+2025-09-13 19:32:23 [INFO] billdr: API request received: GET /api/business-owners/66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b/ from 127.0.0.1
+2025-09-13 19:32:23 [INFO] billdr: User retrieved successfully: BusinessOwner - 66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b
+2025-09-13 19:32:23 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:32:23 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:32:26 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from paid to refunded
+2025-09-13 19:34:08 [INFO] billdr: Health check passed: basic
+2025-09-13 19:38:49 [INFO] billdr: Health check passed: basic
+2025-09-13 19:39:02 [INFO] billdr: Invoice status changed: fdd7f3d3-fee1-4c54-8dd9-c038072bf397 from sent to refunded
+2025-09-13 19:39:02 [INFO] billdr: Invoice status changed: 94d4bc3b-9573-47e9-8327-f36a796571e3 from sent to refunded
+2025-09-13 19:39:02 [INFO] billdr: Invoice status changed: 6eab299e-339b-4208-9a77-f9bbc42d1b2b from sent to paid
+2025-09-13 19:39:02 [INFO] billdr: Invoice status changed: 51545344-4bf1-4ba8-b5d4-887650a3e3d1 from sent to partial
+2025-09-13 19:39:02 [INFO] billdr: Invoice status changed: 59c3299e-c7d0-4821-8f9a-d9ba75110a61 from sent to refunded
+2025-09-13 19:39:02 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:39:02 [INFO] billdr: API request received: GET /api/business-owners/8a8ef2bd-a48f-4394-9471-5f06fc7e8cc2/ from 127.0.0.1
+2025-09-13 19:39:02 [INFO] billdr: User retrieved successfully: BusinessOwner - 8a8ef2bd-a48f-4394-9471-5f06fc7e8cc2
+2025-09-13 19:39:02 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:39:02 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:39:02 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:39:02 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:39:02 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:39:02 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:39:02 [INFO] billdr: API request received: GET /api/customers/6417b6e6-3494-40c9-8796-d7c6bf0bbf09/ from 127.0.0.1
+2025-09-13 19:39:02 [INFO] billdr: User retrieved successfully: Customer - 6417b6e6-3494-40c9-8796-d7c6bf0bbf09
+2025-09-13 19:39:02 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:39:02 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:39:02 [INFO] billdr: Health check passed: basic
+2025-09-13 19:39:02 [INFO] billdr: Health check passed: database
+2025-09-13 19:39:02 [INFO] billdr: Database connection established successfully
+2025-09-13 19:39:02 [INFO] billdr: Invoice deleted successfully: 6feffaf6-a813-4ab5-8545-e2ca9dccc936
+2025-09-13 19:41:10 [INFO] billdr: Invoice status changed: d252ab2c-92f2-4fbf-a8f5-8b08c5998ebd from sent to refunded
+2025-09-13 19:41:10 [INFO] billdr: Invoice status changed: 23234943-e9fd-4053-a166-4d9b01c23d2b from sent to refunded
+2025-09-13 19:41:10 [INFO] billdr: Invoice status changed: a165c8cb-dde1-4e71-ab82-7ff220a3f709 from sent to paid
+2025-09-13 19:41:10 [INFO] billdr: Invoice status changed: d3683ddb-8b43-4c02-9310-c4c40152cb8a from sent to partial
+2025-09-13 19:41:10 [INFO] billdr: Invoice status changed: ed4f5839-9f5e-4781-b03f-ddb9a909e490 from sent to refunded
+2025-09-13 19:41:10 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:41:10 [INFO] billdr: API request received: GET /api/business-owners/fe6df00f-3a63-49f2-aae4-8b0060d92245/ from 127.0.0.1
+2025-09-13 19:41:10 [INFO] billdr: User retrieved successfully: BusinessOwner - fe6df00f-3a63-49f2-aae4-8b0060d92245
+2025-09-13 19:41:10 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:41:10 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:41:10 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:41:10 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:41:10 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:41:10 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:41:10 [INFO] billdr: API request received: GET /api/customers/b8eac042-f83d-4809-833f-a03ece840d39/ from 127.0.0.1
+2025-09-13 19:41:10 [INFO] billdr: User retrieved successfully: Customer - b8eac042-f83d-4809-833f-a03ece840d39
+2025-09-13 19:41:10 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:41:10 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:41:10 [INFO] billdr: Health check passed: basic
+2025-09-13 19:41:10 [INFO] billdr: Health check passed: database
+2025-09-13 19:41:10 [INFO] billdr: Database connection established successfully
+2025-09-13 19:41:10 [INFO] billdr: Invoice deleted successfully: b8c62c24-14c0-4450-811e-da4bbfb8f240
+2025-09-13 19:41:51 [INFO] billdr: Health check passed: basic
+2025-09-13 19:42:31 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from refunded to paid
+2025-09-13 19:42:51 [INFO] billdr: API request received: GET /api/business-owners/66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b/ from 127.0.0.1
+2025-09-13 19:42:51 [INFO] billdr: User retrieved successfully: BusinessOwner - 66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b
+2025-09-13 19:42:51 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:42:51 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:42:55 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from paid to refunded
+2025-09-13 19:43:10 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from refunded to paid
+2025-09-13 19:43:34 [INFO] billdr: API request received: GET /api/business-owners/66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b/ from 127.0.0.1
+2025-09-13 19:43:34 [INFO] billdr: User retrieved successfully: BusinessOwner - 66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b
+2025-09-13 19:43:34 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:43:34 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:43:36 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from paid to refunded
+2025-09-13 19:43:54 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from refunded to partial
+2025-09-13 19:51:01 [INFO] billdr: Invoice status changed: 55deeffc-dbf6-400d-b1d8-e4b80b6aeebb from sent to refunded
+2025-09-13 19:51:01 [INFO] billdr: Invoice status changed: 462b8791-fc37-4cbe-b8c7-4fb2291bae8d from sent to refunded
+2025-09-13 19:51:01 [INFO] billdr: Invoice status changed: fef2302a-e7cf-4e83-b0c0-a1196cce2911 from sent to paid
+2025-09-13 19:51:01 [INFO] billdr: Invoice status changed: 0f033f50-9531-4adf-a767-6d17c27a60b2 from sent to partial
+2025-09-13 19:51:01 [INFO] billdr: Invoice status changed: 631b220d-2f61-453c-9c45-af7f4f046da7 from sent to refunded
+2025-09-13 19:51:01 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:51:01 [INFO] billdr: API request received: GET /api/business-owners/38829479-b773-4bd2-b37d-194c1731fca8/ from 127.0.0.1
+2025-09-13 19:51:01 [INFO] billdr: User retrieved successfully: BusinessOwner - 38829479-b773-4bd2-b37d-194c1731fca8
+2025-09-13 19:51:01 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:51:01 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:51:01 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:51:01 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:51:01 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:51:01 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:51:01 [INFO] billdr: API request received: GET /api/customers/326709fd-a14d-41ab-8458-c0a483c0652c/ from 127.0.0.1
+2025-09-13 19:51:01 [INFO] billdr: User retrieved successfully: Customer - 326709fd-a14d-41ab-8458-c0a483c0652c
+2025-09-13 19:51:01 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:51:01 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:51:01 [INFO] billdr: Health check passed: basic
+2025-09-13 19:51:01 [INFO] billdr: Health check passed: database
+2025-09-13 19:51:01 [INFO] billdr: Database connection established successfully
+2025-09-13 19:51:01 [INFO] billdr: Invoice deleted successfully: 0ec99540-ad14-43fe-8e5b-5c059240bfb6
+2025-09-13 19:54:13 [INFO] billdr: API request received: GET /api/business-owners/66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b/ from 127.0.0.1
+2025-09-13 19:54:13 [INFO] billdr: User retrieved successfully: BusinessOwner - 66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b
+2025-09-13 19:54:13 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:54:13 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:54:31 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from partial to refunded
+2025-09-13 19:55:15 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from refunded to partial
+2025-09-13 19:55:33 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:55:33 [INFO] billdr: API request received: GET /api/business-owners/7cb5d44d-f721-4ca4-845f-2d7b87be9ceb/ from 127.0.0.1
+2025-09-13 19:55:33 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:55:33 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 7cb5d44d-f721-4ca4-845f-2d7b87be9ceb
+2025-09-13 19:55:33 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:57:48 [INFO] billdr: Invoice status changed: 259d2478-0940-4a04-adc5-d3badfdabd88 from sent to refunded
+2025-09-13 19:57:48 [INFO] billdr: Invoice status changed: 37d6a337-dba3-47a3-8120-75f24763773a from sent to refunded
+2025-09-13 19:57:48 [INFO] billdr: Invoice status changed: 3f174876-3b93-4934-a5e4-b737e588a617 from sent to paid
+2025-09-13 19:57:48 [INFO] billdr: Invoice status changed: 7f0ea39b-59dd-463a-9179-61035a6ad493 from sent to partial
+2025-09-13 19:57:48 [INFO] billdr: Invoice status changed: d155debf-a4a3-4fda-87db-e48d00610f2d from sent to refunded
+2025-09-13 19:57:48 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:57:48 [INFO] billdr: API request received: GET /api/business-owners/9c8ff7e0-1695-4017-837a-9c7cfb4ed299/ from 127.0.0.1
+2025-09-13 19:57:48 [INFO] billdr: User retrieved successfully: BusinessOwner - 9c8ff7e0-1695-4017-837a-9c7cfb4ed299
+2025-09-13 19:57:48 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:57:48 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:57:48 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:57:48 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:57:48 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:57:48 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:57:48 [INFO] billdr: API request received: GET /api/customers/f1b03307-763b-48b4-af8d-9023267c1c42/ from 127.0.0.1
+2025-09-13 19:57:48 [INFO] billdr: User retrieved successfully: Customer - f1b03307-763b-48b4-af8d-9023267c1c42
+2025-09-13 19:57:48 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:57:48 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:57:48 [INFO] billdr: Health check passed: basic
+2025-09-13 19:57:48 [INFO] billdr: Health check passed: database
+2025-09-13 19:57:48 [INFO] billdr: Database connection established successfully
+2025-09-13 19:57:48 [INFO] billdr: Invoice deleted successfully: db9298e9-e053-44d5-9c48-a72207d05b09
+2025-09-13 19:59:37 [INFO] billdr: Invoice status changed: 3c4e06e7-42d3-4217-915a-4670c089a8c0 from sent to refunded
+2025-09-13 19:59:37 [INFO] billdr: Invoice status changed: f7db70ba-ce5c-4ca3-a440-169fc2985ff5 from sent to refunded
+2025-09-13 19:59:37 [INFO] billdr: Invoice status changed: b3669905-5551-49a3-9e7f-5e02b60243bf from sent to paid
+2025-09-13 19:59:37 [INFO] billdr: Invoice status changed: 1a2a1a2e-aefd-4ab6-accc-f0d757e58eac from sent to paid
+2025-09-13 19:59:37 [INFO] billdr: Invoice status changed: c551da5f-4718-4d70-b462-15913a0d4aed from sent to partial
+2025-09-13 19:59:37 [INFO] billdr: Invoice status changed: d97c47ff-821f-4484-a894-0b9ff7048451 from sent to refunded
+2025-09-13 19:59:37 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 19:59:37 [INFO] billdr: API request received: GET /api/business-owners/ffa6a85b-9d0e-49d9-97dd-0aed59105352/ from 127.0.0.1
+2025-09-13 19:59:37 [INFO] billdr: User retrieved successfully: BusinessOwner - ffa6a85b-9d0e-49d9-97dd-0aed59105352
+2025-09-13 19:59:37 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 19:59:37 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 19:59:37 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 19:59:37 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 19:59:37 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 19:59:37 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 19:59:37 [INFO] billdr: API request received: GET /api/customers/43a16294-aad4-4856-bffb-d44dc63ef0f8/ from 127.0.0.1
+2025-09-13 19:59:37 [INFO] billdr: User retrieved successfully: Customer - 43a16294-aad4-4856-bffb-d44dc63ef0f8
+2025-09-13 19:59:37 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 19:59:37 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 19:59:37 [INFO] billdr: Health check passed: basic
+2025-09-13 19:59:37 [INFO] billdr: Health check passed: database
+2025-09-13 19:59:37 [INFO] billdr: Database connection established successfully
+2025-09-13 19:59:37 [INFO] billdr: Invoice deleted successfully: 58980e2c-dcbf-4f3c-9d16-43ba9d6f37d3
+2025-09-13 20:02:45 [INFO] billdr: Invoice status changed: 8136d175-bdbd-486a-8388-7bac8ff610a6 from sent to refunded
+2025-09-13 20:02:45 [INFO] billdr: Invoice status changed: 22c6ee45-6302-4587-9695-d113555a0302 from sent to refunded
+2025-09-13 20:02:45 [INFO] billdr: Invoice status changed: 55bbc353-114d-427e-a5d0-a731cf501c03 from sent to paid
+2025-09-13 20:02:45 [INFO] billdr: Invoice status changed: 7324c60c-9a26-48cd-90a2-7674258f24f3 from sent to paid
+2025-09-13 20:02:45 [INFO] billdr: Invoice status changed: 0f219151-afa7-4c60-9805-186bcc0a9654 from sent to partial
+2025-09-13 20:02:45 [INFO] billdr: Invoice status changed: 0d56473a-2a61-4571-a644-bd6ad8fe7a0c from sent to refunded
+2025-09-13 20:02:45 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 20:02:45 [INFO] billdr: API request received: GET /api/business-owners/68f67f4b-1e16-4c4a-9d98-954ebff66aca/ from 127.0.0.1
+2025-09-13 20:02:45 [INFO] billdr: User retrieved successfully: BusinessOwner - 68f67f4b-1e16-4c4a-9d98-954ebff66aca
+2025-09-13 20:02:45 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 20:02:45 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 20:02:45 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 20:02:45 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 20:02:45 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 20:02:45 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 20:02:45 [INFO] billdr: API request received: GET /api/customers/34264016-569c-48dd-aba8-9906c6ef3b7d/ from 127.0.0.1
+2025-09-13 20:02:45 [INFO] billdr: User retrieved successfully: Customer - 34264016-569c-48dd-aba8-9906c6ef3b7d
+2025-09-13 20:02:45 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:02:45 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:02:45 [INFO] billdr: Health check passed: basic
+2025-09-13 20:02:45 [INFO] billdr: Health check passed: database
+2025-09-13 20:02:45 [INFO] billdr: Database connection established successfully
+2025-09-13 20:02:45 [INFO] billdr: Invoice deleted successfully: 0af0d677-b5b4-4c1a-b132-d8035ec72d92
+2025-09-13 20:04:05 [INFO] billdr: Invoice status changed: c958d890-cc4c-4662-9bcf-2a8d92eaa1ed from sent to refunded
+2025-09-13 20:04:05 [INFO] billdr: Invoice status changed: 7f6eb016-0e82-4368-a01d-262c5d5e42ca from sent to refunded
+2025-09-13 20:04:05 [INFO] billdr: Invoice status changed: 0aedc6eb-a6d5-4e08-ad76-04de3ef935c3 from sent to paid
+2025-09-13 20:04:05 [INFO] billdr: Invoice status changed: cd8bb139-707c-4473-b43c-1e0c3f9ef4ad from sent to partial
+2025-09-13 20:04:05 [INFO] billdr: Invoice status changed: fd202a7c-dc3a-41bf-af66-ba52147022e8 from sent to refunded
+2025-09-13 20:04:05 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 20:04:05 [INFO] billdr: API request received: GET /api/business-owners/cbf621f0-5789-4ed2-b29d-8b19c3e461dd/ from 127.0.0.1
+2025-09-13 20:04:05 [INFO] billdr: User retrieved successfully: BusinessOwner - cbf621f0-5789-4ed2-b29d-8b19c3e461dd
+2025-09-13 20:04:05 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 20:04:05 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 20:04:05 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 20:04:05 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 20:04:05 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 20:04:05 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 20:04:05 [INFO] billdr: API request received: GET /api/customers/a7b52f87-7454-45d9-b2c9-7eb30e09a84b/ from 127.0.0.1
+2025-09-13 20:04:05 [INFO] billdr: User retrieved successfully: Customer - a7b52f87-7454-45d9-b2c9-7eb30e09a84b
+2025-09-13 20:04:05 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:04:05 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:04:05 [INFO] billdr: Health check passed: basic
+2025-09-13 20:04:05 [INFO] billdr: Health check passed: database
+2025-09-13 20:04:05 [INFO] billdr: Database connection established successfully
+2025-09-13 20:04:05 [INFO] billdr: Invoice deleted successfully: 6ca06f65-7d0b-4699-9e0d-627abc79673b
+2025-09-13 20:04:56 [INFO] billdr: Invoice status changed: 669a5a30-4657-41ca-8d22-eef59679f3cd from sent to refunded
+2025-09-13 20:04:56 [INFO] billdr: Invoice status changed: b15bbaea-b056-49e8-8ee0-f8772b38fa85 from sent to refunded
+2025-09-13 20:04:56 [INFO] billdr: Invoice status changed: 8e28d86d-19f1-4716-8bc1-f47a1db81abc from sent to paid
+2025-09-13 20:04:56 [INFO] billdr: Invoice status changed: 7351c886-ac66-4bb7-9d69-a747ee1320d6 from sent to partial
+2025-09-13 20:04:56 [INFO] billdr: Invoice status changed: 3322bdfe-26d2-4118-8ff2-2c3b3f78d121 from sent to refunded
+2025-09-13 20:04:56 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 20:04:56 [INFO] billdr: API request received: GET /api/business-owners/0145c83c-1833-42d4-8756-900b133ddf31/ from 127.0.0.1
+2025-09-13 20:04:56 [INFO] billdr: User retrieved successfully: BusinessOwner - 0145c83c-1833-42d4-8756-900b133ddf31
+2025-09-13 20:04:56 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 20:04:56 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 20:04:56 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 20:04:56 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 20:04:56 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 20:04:56 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 20:04:56 [INFO] billdr: API request received: GET /api/customers/8e429016-2d09-4d70-95e8-57ade69ad529/ from 127.0.0.1
+2025-09-13 20:04:56 [INFO] billdr: User retrieved successfully: Customer - 8e429016-2d09-4d70-95e8-57ade69ad529
+2025-09-13 20:04:56 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:04:56 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:04:56 [INFO] billdr: Health check passed: basic
+2025-09-13 20:04:56 [INFO] billdr: Health check passed: database
+2025-09-13 20:04:56 [INFO] billdr: Database connection established successfully
+2025-09-13 20:04:56 [INFO] billdr: Invoice deleted successfully: e7c00d84-c2e8-4df6-9092-b34fb07e354f
+2025-09-13 20:05:20 [INFO] billdr: Invoice status changed: b56f0334-1af3-42e7-9b89-f78062113c6d from sent to refunded
+2025-09-13 20:05:20 [INFO] billdr: Invoice status changed: 22169bd6-d2f1-4c29-b581-d1a71d15464a from sent to refunded
+2025-09-13 20:05:20 [INFO] billdr: Invoice status changed: d89d828a-001f-4c4d-9234-c3fa355719ff from sent to paid
+2025-09-13 20:05:20 [INFO] billdr: Invoice status changed: 48ca97b7-e484-408f-9780-61dc686c12b8 from sent to partial
+2025-09-13 20:05:20 [INFO] billdr: Invoice status changed: e0778e23-075b-4b86-900e-489b6eef89d1 from sent to refunded
+2025-09-13 20:05:20 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 20:05:20 [INFO] billdr: API request received: GET /api/business-owners/8442a342-e573-4f96-b7d4-693966220d9a/ from 127.0.0.1
+2025-09-13 20:05:20 [INFO] billdr: User retrieved successfully: BusinessOwner - 8442a342-e573-4f96-b7d4-693966220d9a
+2025-09-13 20:05:20 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 20:05:20 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 20:05:20 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 20:05:20 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 20:05:20 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 20:05:20 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 20:05:20 [INFO] billdr: API request received: GET /api/customers/8fb1298c-2cf6-463d-82c0-6a7bbec16bb7/ from 127.0.0.1
+2025-09-13 20:05:20 [INFO] billdr: User retrieved successfully: Customer - 8fb1298c-2cf6-463d-82c0-6a7bbec16bb7
+2025-09-13 20:05:20 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:05:20 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:05:20 [INFO] billdr: Health check passed: basic
+2025-09-13 20:05:20 [INFO] billdr: Health check passed: database
+2025-09-13 20:05:20 [INFO] billdr: Database connection established successfully
+2025-09-13 20:05:20 [INFO] billdr: Invoice deleted successfully: 8c3ce5da-f76b-4287-86ec-cf0c7f5008de
+2025-09-13 20:05:58 [INFO] billdr: Invoice status changed: 761f54bf-adf5-4615-8d45-8fbf71c735ba from sent to refunded
+2025-09-13 20:05:58 [INFO] billdr: Invoice status changed: ed50d912-f058-4e06-90e2-e48b0892b155 from sent to refunded
+2025-09-13 20:05:58 [INFO] billdr: Invoice status changed: d4d6f6a3-c557-4fe4-bfcd-be481c789345 from sent to paid
+2025-09-13 20:05:58 [INFO] billdr: Invoice status changed: ca396a9f-63fe-4e2b-93d1-d88c523cdc5b from sent to paid
+2025-09-13 20:05:58 [INFO] billdr: Invoice status changed: d0b63a1b-66dd-4b9f-8074-bed766178afa from sent to partial
+2025-09-13 20:05:58 [INFO] billdr: Invoice status changed: c98b8c56-3ecc-4149-9736-5e1cd45b47c0 from sent to refunded
+2025-09-13 20:05:58 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 20:05:58 [INFO] billdr: API request received: GET /api/business-owners/ffd81e6c-34ae-4459-9db0-838651915d68/ from 127.0.0.1
+2025-09-13 20:05:58 [INFO] billdr: User retrieved successfully: BusinessOwner - ffd81e6c-34ae-4459-9db0-838651915d68
+2025-09-13 20:05:58 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 20:05:58 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 20:05:58 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 20:05:58 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 20:05:58 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 20:05:58 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 20:05:58 [INFO] billdr: API request received: GET /api/customers/873b1849-35d8-43fb-a544-73a0a82ef6bc/ from 127.0.0.1
+2025-09-13 20:05:58 [INFO] billdr: User retrieved successfully: Customer - 873b1849-35d8-43fb-a544-73a0a82ef6bc
+2025-09-13 20:05:58 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:05:58 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:05:58 [INFO] billdr: Health check passed: basic
+2025-09-13 20:05:58 [INFO] billdr: Health check passed: database
+2025-09-13 20:05:58 [INFO] billdr: Database connection established successfully
+2025-09-13 20:05:58 [INFO] billdr: Invoice deleted successfully: 19384513-78cc-4d87-8f58-28d08bbb2f42
+2025-09-13 20:06:09 [INFO] billdr: Invoice status changed: e2be1894-e39b-4994-ae20-273b4d4d7550 from sent to refunded
+2025-09-13 20:06:09 [INFO] billdr: Invoice status changed: 3e99a656-e733-4a9c-a8f3-93e7abf15051 from sent to refunded
+2025-09-13 20:06:09 [INFO] billdr: Invoice status changed: f33e6c3b-b724-4096-bc06-802cc2b0fa4f from sent to paid
+2025-09-13 20:06:09 [INFO] billdr: Invoice status changed: 9658b65f-a9d4-4289-875f-fe5d8021a135 from sent to paid
+2025-09-13 20:06:09 [INFO] billdr: Invoice status changed: 7904a715-95f9-4e4c-b575-82214825998f from sent to partial
+2025-09-13 20:06:09 [INFO] billdr: Invoice status changed: 64a7c45a-7e89-4389-a05a-f358f37503e4 from sent to refunded
+2025-09-13 20:06:09 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 20:06:09 [INFO] billdr: API request received: GET /api/business-owners/c1735034-68d5-4dbc-8a97-c8d72553391b/ from 127.0.0.1
+2025-09-13 20:06:09 [INFO] billdr: User retrieved successfully: BusinessOwner - c1735034-68d5-4dbc-8a97-c8d72553391b
+2025-09-13 20:06:09 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 20:06:09 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 20:06:09 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 20:06:09 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 20:06:09 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 20:06:09 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 20:06:09 [INFO] billdr: API request received: GET /api/customers/3bf6073a-a431-4c79-8fca-ba3baf8f160e/ from 127.0.0.1
+2025-09-13 20:06:09 [INFO] billdr: User retrieved successfully: Customer - 3bf6073a-a431-4c79-8fca-ba3baf8f160e
+2025-09-13 20:06:09 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:06:09 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:06:09 [INFO] billdr: Health check passed: basic
+2025-09-13 20:06:09 [INFO] billdr: Health check passed: database
+2025-09-13 20:06:09 [INFO] billdr: Database connection established successfully
+2025-09-13 20:06:09 [INFO] billdr: Invoice deleted successfully: 64d690b9-751b-4532-b8d2-6360615a3e9a
+2025-09-13 20:06:09 [INFO] billdr: Invoice status changed: 16fa2eae-afe7-4b64-911b-6b8aff0de96f from sent to paid
+2025-09-13 20:06:41 [INFO] billdr: Invoice status changed: 94e25387-afd5-43aa-b69a-303cd5bc9946 from sent to refunded
+2025-09-13 20:06:41 [INFO] billdr: Invoice status changed: b41d510f-5835-4fb2-a852-236507695ded from sent to refunded
+2025-09-13 20:06:41 [INFO] billdr: Invoice status changed: 14d1c4bc-8a89-489d-979a-c6f0e7592c29 from sent to paid
+2025-09-13 20:06:41 [INFO] billdr: Invoice status changed: a612bc06-6e64-4da7-af79-09cf246f70b7 from sent to paid
+2025-09-13 20:06:41 [INFO] billdr: Invoice status changed: 386dc085-a411-4d23-a67e-478593768fe2 from sent to partial
+2025-09-13 20:06:41 [INFO] billdr: Invoice status changed: 5ff06e05-c155-4201-b8ba-08aad349b03f from sent to refunded
+2025-09-13 20:06:41 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-13 20:06:41 [INFO] billdr: API request received: GET /api/business-owners/7e6e99f8-7e91-4633-adaf-c9363999cf58/ from 127.0.0.1
+2025-09-13 20:06:41 [INFO] billdr: User retrieved successfully: BusinessOwner - 7e6e99f8-7e91-4633-adaf-c9363999cf58
+2025-09-13 20:06:41 [INFO] billdr: API request received: GET /api/business-owners/12345678-1234-1234-1234-123456789012/ from 127.0.0.1
+2025-09-13 20:06:41 [WARNING] billdr: Failed to retrieve user: BusinessOwner - 12345678-1234-1234-1234-123456789012
+2025-09-13 20:06:41 [ERROR] billdr: Failed to create database log entry: Object of type UUID is not JSON serializable
+2025-09-13 20:06:41 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-13 20:06:41 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-13 20:06:41 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-13 20:06:41 [INFO] billdr: API request received: GET /api/customers/45b43b90-c9e1-4fae-9cba-3d2de9643162/ from 127.0.0.1
+2025-09-13 20:06:41 [INFO] billdr: User retrieved successfully: Customer - 45b43b90-c9e1-4fae-9cba-3d2de9643162
+2025-09-13 20:06:41 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:06:41 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:06:41 [INFO] billdr: Health check passed: basic
+2025-09-13 20:06:41 [INFO] billdr: Health check passed: database
+2025-09-13 20:06:41 [INFO] billdr: Database connection established successfully
+2025-09-13 20:06:41 [INFO] billdr: Invoice deleted successfully: 59760126-0888-40ee-a101-b318533d8171
+2025-09-13 20:06:41 [INFO] billdr: Invoice status changed: e5f2bdcc-b0f6-4150-821a-3f1f1ce6bb8e from sent to paid
+2025-09-13 20:09:47 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from partial to paid
+2025-09-13 20:10:47 [INFO] billdr: API request received: GET /api/business-owners/66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b/ from 127.0.0.1
+2025-09-13 20:10:47 [INFO] billdr: User retrieved successfully: BusinessOwner - 66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b
+2025-09-13 20:10:47 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:10:47 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:10:52 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from paid to partial
+2025-09-13 20:11:19 [INFO] billdr: API request received: GET /api/business-owners/66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b/ from 127.0.0.1
+2025-09-13 20:11:19 [INFO] billdr: User retrieved successfully: BusinessOwner - 66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b
+2025-09-13 20:11:19 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:11:19 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:36:11 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from partial to paid
+2025-09-13 20:36:20 [INFO] billdr: API request received: GET /api/business-owners/66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b/ from 127.0.0.1
+2025-09-13 20:36:20 [INFO] billdr: User retrieved successfully: BusinessOwner - 66ff3ed9-bb15-4ca7-8cba-c3ffb75c112b
+2025-09-13 20:36:20 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-13 20:36:20 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-13 20:36:22 [INFO] billdr: Invoice status changed: f58452e2-4c1c-4a24-bf1f-30da2075a80d from paid to partial
