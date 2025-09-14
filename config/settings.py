@@ -19,9 +19,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / '.env')
 
 
-SECRET_KEY = 'django-insecure-834(a!7fbnhf=d!j_mc#la@mg-&d#^csapgmp36z17g$t$2zl&'
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-834(a!7fbnhf=d!j_mc#la@mg-&d#^csapgmp36z17g$t$2zl&')
 
-DEBUG = True
+DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
+
+ALLOWED_HOSTS = [
+    'billdr-be-production.up.railway.app',
+    'localhost',
+    '127.0.0.1',
+    '.railway.app'
+]
 
 
 INSTALLED_APPS = [
@@ -39,6 +46,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -105,8 +113,12 @@ USE_TZ = True
 
 
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -175,6 +187,16 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3001",
     "http://localhost:3002",
 ]
+
+if not DEBUG:
+    CORS_ALLOWED_ORIGINS.extend([
+        "https://frontend-osnxv421g-emateus71-4164s-projects.vercel.app",
+    ])
+
+    # Allow all Vercel preview deployments
+    CORS_ALLOWED_ORIGIN_REGEXES = [
+        r"^https://.*\.vercel\.app$",
+    ]
 
 CORS_ALLOW_CREDENTIALS = True
 
