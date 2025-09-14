@@ -5,6 +5,7 @@ dj-database-url==3.0.1
 Django==5.2.6
 django-cors-headers==4.8.0
 djangorestframework==3.16.1
+gunicorn==21.2.0
 idna==3.10
 psycopg2-binary==2.9.10
 python-dotenv==1.1.1

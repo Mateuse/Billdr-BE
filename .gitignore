@@ -1,1 +1,10 @@
 *.env
+
+venv/
+
+logs/
+
+.DS_Store
+__pycache__/
+
+*.log
