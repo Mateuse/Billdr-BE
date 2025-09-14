@@ -88,6 +88,20 @@ DATABASES = {
     )
 }
 
+# Log database configuration
+import logging
+logger = logging.getLogger('django')
+db_engine = DATABASES['default']['ENGINE']
+if 'postgresql' in db_engine:
+    db_host = DATABASES['default'].get('HOST', 'unknown')
+    db_name = DATABASES['default'].get('NAME', 'unknown')
+    logger.info(f"Using PostgreSQL database: {db_name} on {db_host}")
+elif 'sqlite' in db_engine:
+    db_path = DATABASES['default'].get('NAME', 'unknown')
+    logger.info(f"Using SQLite database: {db_path}")
+else:
+    logger.info(f"Using database engine: {db_engine}")
+
 
 
 AUTH_PASSWORD_VALIDATORS = [
