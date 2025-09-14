@@ -466,3 +466,24 @@
 2025-09-14 00:43:26 [INFO] billdr: Database connection established successfully
 2025-09-14 00:43:26 [INFO] billdr: Invoice deleted successfully: 46c27a13-c7c1-481e-9a78-9671316469a8
 2025-09-14 00:43:26 [INFO] billdr: Invoice status changed: 140b38f8-13b0-4f67-9426-80044aa03d97 from sent to paid
+2025-09-14 01:13:19 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-14 01:13:19 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-14 01:13:25 [INFO] billdr: API request received: POST /api/business-owners/ from 127.0.0.1
+2025-09-14 01:13:25 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-14 01:13:25 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-14 01:13:27 [INFO] billdr: API request received: GET /api/business-owners/e39c73b3-10da-456d-82bb-66a667d112e4/ from 127.0.0.1
+2025-09-14 01:13:27 [INFO] billdr: User retrieved successfully: BusinessOwner - e39c73b3-10da-456d-82bb-66a667d112e4
+2025-09-14 01:13:28 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-14 01:13:28 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-14 01:13:31 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-14 01:13:31 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-14 01:13:39 [INFO] billdr: API request received: POST /api/customers/ from 127.0.0.1
+2025-09-14 01:13:39 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-14 01:13:39 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-14 01:13:41 [INFO] billdr: API request received: GET /api/business-owners/ from 127.0.0.1
+2025-09-14 01:13:41 [INFO] billdr: User retrieved successfully: BusinessOwner - all
+2025-09-14 01:13:43 [INFO] billdr: API request received: GET /api/business-owners/e39c73b3-10da-456d-82bb-66a667d112e4/ from 127.0.0.1
+2025-09-14 01:13:43 [INFO] billdr: User retrieved successfully: BusinessOwner - e39c73b3-10da-456d-82bb-66a667d112e4
+2025-09-14 01:13:43 [INFO] billdr: API request received: GET /api/customers/ from 127.0.0.1
+2025-09-14 01:13:43 [INFO] billdr: User retrieved successfully: Customer - all
+2025-09-14 01:14:08 [INFO] billdr: Invoice status changed: fd29397b-97d7-493e-b7b0-2ac4823e027a from sent to partial
