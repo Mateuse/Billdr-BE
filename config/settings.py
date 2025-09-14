@@ -151,41 +151,45 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'detailed',
         },
-        'file': {
-            'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'logs' / 'billdr.log',
-            'formatter': 'detailed',
-        },
-        'error_file': {
-            'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'logs' / 'errors.log',
-            'formatter': 'verbose',
-            'level': 'ERROR',
-        },
     },
     'loggers': {
-        'billdr': {
-            'handlers': ['console', 'file'],
-            'level': 'INFO',
-            'propagate': False,
-        },
-        'billdr.errors': {
-            'handlers': ['console', 'error_file'],
-            'level': 'ERROR',
-            'propagate': False,
-        },
         'django': {
             'handlers': ['console'],
-            'level': 'WARNING',
+            'level': 'INFO' if DEBUG else 'WARNING',
             'propagate': True,
         },
         'django.request': {
-            'handlers': ['console', 'error_file'],
+            'handlers': ['console'],
             'level': 'ERROR',
             'propagate': False,
         },
     },
 }
+
+# Add file logging only if logs directory exists (for local development)
+if os.path.exists(BASE_DIR / 'logs'):
+    LOGGING['handlers']['file'] = {
+        'class': 'logging.FileHandler',
+        'filename': BASE_DIR / 'logs' / 'billdr.log',
+        'formatter': 'detailed',
+    }
+    LOGGING['handlers']['error_file'] = {
+        'class': 'logging.FileHandler',
+        'filename': BASE_DIR / 'logs' / 'errors.log',
+        'formatter': 'verbose',
+        'level': 'ERROR',
+    }
+    LOGGING['loggers']['billdr'] = {
+        'handlers': ['console', 'file'],
+        'level': 'INFO',
+        'propagate': False,
+    }
+    LOGGING['loggers']['billdr.errors'] = {
+        'handlers': ['console', 'error_file'],
+        'level': 'ERROR',
+        'propagate': False,
+    }
+    LOGGING['loggers']['django.request']['handlers'].append('error_file')
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
