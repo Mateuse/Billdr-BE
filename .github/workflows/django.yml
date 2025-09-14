@@ -45,6 +45,8 @@ jobs:
         DATABASE_URL: postgresql://postgres:postgres@localhost:5432/testdb
         DEBUG: 'False'
         SECRET_KEY: 'test-secret-key-for-ci-only'
+        STRIPE_API_SECRET_KEY: 'sk_test_fake_key_for_testing'
+        STRIPE_WEBHOOK_SECRET: 'whsec_test_webhook_secret'
       run: |
         python manage.py check
         python manage.py migrate
